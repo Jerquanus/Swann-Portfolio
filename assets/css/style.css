@@ -1,0 +1,199 @@
+
+/* realized late that I couldve used :root and ::selection/
+
+:root{
+}
+
+::selection:{
+    
+} */
+
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    background: black;
+    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+    monospace;
+}
+
+header h1 .jerquanus{
+    color: lightcoral;
+}
+
+
+#home{
+    background: rgba(0, 0, 0, 0.9);
+    padding 0px 0px;
+    top: 0px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+    letter-spacing: 1px;
+    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+    monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+/* /tried to give  wrapper a background color
+ .wrapper {
+    
+    background-color: black;
+    z-index: -1; 
+
+
+}  */
+
+.nav{
+    /* tried to create sticky nav bar but failed */
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    margin: 0px;
+    overflow: hidden;
+
+}
+/* tried to create sticky nav bar but failed hence the float: left;
+and display: inline block issues */
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.nav .a{
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .nav:hover,
+  .nav:hover .a {
+    box-shadow: inset 0px 0px 8px rgb(226, 131, 93), 0 0 15px lightsalmon;
+  
+    
+}
+
+
+
+.nav a:hover {
+    background-color: rgb(226, 131, 93);
+}
+
+.banner-container{
+    margin: 10px;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+}
+
+.banner-container img{
+    max-width: 100%;
+    height: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-size: cover;
+}
+
+#container{
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: lightsalmon;
+
+}
+
+/* resizing image */
+.polaroid img { 
+    border-radius: 8px;
+    margin: 5px;
+    border: 0px;
+    padding: 0px;
+    
+    
+}
+
+/* adjusting bio size */
+.bio {
+    text-align: left;
+    word-break: break-word; 
+    width: 500px; 
+    background-color: lightcoral;
+    border-radius: 8px;
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+}
+
+
+
+
+.polaroid {
+    order: 0;
+    flex-shrink: 6;
+    
+}
+
+.bio{
+    order: 1;
+    flex-grow: 5;
+   
+}
+
+.work{
+    order: 2;
+    flex-grow: 3;
+}
+
+#projects{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+
+}
+
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    top: 0px;
+    background: black;
+}
+
+footer ul .cell, .email {
+    color: black;
+}
+
+#contact {
+    color: white;
+    background-color: lightcoral;
+    border-radius: 8px;
+}
+
