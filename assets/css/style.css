@@ -21,9 +21,23 @@ body {
     monospace;
 }
 
-header h1 .jerquanus{
+
+
+.jerquanus{
     color: lightcoral;
+
+    /* transition: all 0.5s ease-in-out;
+  }
+  
+  .jerquanus:hover,
+  .jerquanus:hover {
+    box-shadow: inset 0px 0px 0px rgb(226, 131, 93), 0 0 15px lightsalmon; */
+
+    
+
+
 }
+
 
 
 #home{
@@ -43,14 +57,7 @@ header h1 .jerquanus{
 
 }
 
-/* /tried to give  wrapper a background color
- .wrapper {
-    
-    background-color: black;
-    z-index: -1; 
 
-
-}  */
 
 .nav{
     /* tried to create sticky nav bar but failed */
@@ -113,13 +120,13 @@ and display: inline block issues */
     border: 0px;
     padding: 10px;
     border-radius: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
     background-color: lightsalmon;
-
+    display: flex;
+    flex: space-around;
+    flex-wrap: wrap;
 }
+
+
 
 /* resizing image */
 .polaroid img { 
@@ -127,15 +134,13 @@ and display: inline block issues */
     margin: 5px;
     border: 0px;
     padding: 0px;
-    
+    max-width: 600px;
+    box-shadow: inset ;
     
 }
 
 /* adjusting bio size */
-.bio {
-    text-align: left;
-    word-break: break-word; 
-    width: 500px; 
+.bio-back {
     background-color: lightcoral;
     border-radius: 8px;
     margin: 5px;
@@ -143,27 +148,43 @@ and display: inline block issues */
     padding: 10px;
 }
 
-
-
-
-.polaroid {
-    order: 0;
-    flex-shrink: 6;
-    
+.bio-back2{
+    background-color: lightcoral;
+    border-radius: 8px;
+    margin: 5px;
+    border: 0px;
+    padding: 10px;
+    /* height: 470px; */
 }
 
-.bio{
-    order: 1;
-    flex-grow: 5;
-   
+
+
+
+
+
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: lightsalmon;
 }
 
 .work{
-    order: 2;
-    flex-grow: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: lightcoral;
 }
 
+
+
+
+
 #projects{
+    background-color: lightsalmon;
     display:flex;
     flex-direction: row;
     align-content: space-between;
@@ -179,6 +200,20 @@ and display: inline block issues */
 
 }
 
+#project-header{
+    background-color: lightcoral;
+    border-radius: 8px;
+}
+
+
+
+/* center and customize resume button */
+/* .resume-btn{
+
+} */
+
+
+
 
 footer {
     padding: 10px;
@@ -187,12 +222,12 @@ footer {
     background: black;
 }
 
-footer ul .cell, .email {
+footer ul .bottomcut{
     color: black;
 }
 
 #contact {
-    color: white;
+    color: rgb(233, 233, 233);
     background-color: lightcoral;
     border-radius: 8px;
 }
