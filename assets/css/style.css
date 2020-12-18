@@ -25,17 +25,6 @@ body {
 
 .jerquanus{
     color: lightcoral;
-
-    /* transition: all 0.5s ease-in-out;
-  }
-  
-  .jerquanus:hover,
-  .jerquanus:hover {
-    box-shadow: inset 0px 0px 0px rgb(226, 131, 93), 0 0 15px lightsalmon; */
-
-    
-
-
 }
 
 
@@ -179,7 +168,11 @@ and display: inline block issues */
     background-color: lightcoral;
 }
 
-
+#resume{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
 
 
 
@@ -208,9 +201,10 @@ and display: inline block issues */
 
 
 /* center and customize resume button */
-/* .resume-btn{
+.resume-btn{
+    
 
-} */
+}
 
 
 
