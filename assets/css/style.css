@@ -168,11 +168,11 @@ and display: inline block issues */
     background-color: lightcoral;
 }
 
-#resume{
+/* #resume{
     display: flex;
     align-content: center;
-    justify-content: space-around;
-}
+    justify-content: center;
+} */
 
 
 
@@ -201,9 +201,10 @@ and display: inline block issues */
 
 
 /* center and customize resume button */
-.resume-btn{
-    
-
+.btn-large{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

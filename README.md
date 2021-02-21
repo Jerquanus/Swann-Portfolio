@@ -25,8 +25,6 @@ hoping that helps me in the future when we update the portfolio.
 I also made sure that my words in my about me were flexible and moved as the page size changed.
 
 
-For this homework activity. I've definitely put in over
-20 hours studying, reading instagram posts, playing coding games, and and watching youtube vidoes to educate myself.
 
 Credits:
 Sticky nav bar Tutorial by RUST CODE: https://www.youtube.com/watch?v=eOfJVWUYoDI
