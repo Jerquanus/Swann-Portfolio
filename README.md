@@ -24,7 +24,8 @@ hoping that helps me in the future when we update the portfolio.
 
 I also used materalize to help me with creating cards. I'd like to create a better looking card in the future but this suffices for now.
 
-
+Link:
+jerquanus.github.io/swann-portfolio/
 
 Technologies Used:
 
