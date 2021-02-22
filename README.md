@@ -18,13 +18,17 @@ I happened to have an older twitter header handy so I used that as a banner.
 My goal was to add a reactive sticky nav bar but failed. So I settled for a just a reactive
 nav bar then added my own features to it. 
 
-I also used this project to practice my flexbox abilites. I put my main content in a 
+I used this project to practice my flexbox abilites. I put my main content in a 
 flex box to give me more control. Then placed my projects in a flexbox as well. I'm
 hoping that helps me in the future when we update the portfolio. 
 
-I also made sure that my words in my about me were flexible and moved as the page size changed.
+I also used materalize to help me with creating cards. I'd like to create a better looking card in the future but this suffices for now.
 
 
+
+Technologies Used:
+
+Materalize
 
 Credits:
 Sticky nav bar Tutorial by RUST CODE: https://www.youtube.com/watch?v=eOfJVWUYoDI
